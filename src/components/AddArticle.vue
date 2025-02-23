@@ -8,7 +8,7 @@
         </form>
     </div>
 </template>
-  
+
 <script>
     export default {
         name: 'AddArticle',
@@ -32,7 +32,19 @@
         }
     };
 </script>
-  
+
 <style>
-/* Add your styles here */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  margin-bottom: 1rem;
+}
+
+button {
+  align-self: flex-start;
+}
 </style>
