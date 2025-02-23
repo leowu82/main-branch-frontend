@@ -21,6 +21,11 @@ export default {
         Article,
         AddArticle
     },
+    data() {
+        return {
+            articles: []
+        };
+    },
     methods: {
         addArticle(newArticle) {
             this.articles.push(newArticle);
@@ -31,7 +36,7 @@ export default {
     }
 };
 </script>
-  
+
 <style>
 /* Add your styles here */
 </style>
